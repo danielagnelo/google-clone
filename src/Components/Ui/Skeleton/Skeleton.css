@@ -1,0 +1,35 @@
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+    margin: 10px 8%;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
+.skeleton-text-top {
+    height: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.skeleton-text {
+    height: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    height: 20px;
+}
+
+.skeleton-text__body {
+    width: 75%;
+}
+
+.skeleton-header {
+    width: 30%;
+}
