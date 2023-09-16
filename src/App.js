@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 import SearchPage from './Components/SearchResults/SearchPage';
-import ImagePage from './Components/SearchResults/ImagePage';
 import SearchResults from './Components/SearchResults/SearchResults';
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
       <Switch>
         <Route path='/search/image'>
           <SearchPage />
-          <ImagePage />
         </Route>
         <Route path='/search'>
           <SearchPage />

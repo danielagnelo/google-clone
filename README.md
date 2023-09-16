@@ -1,4 +1,3 @@
-
 <h1>Google Clone - Animal Search</h1>
 <center>
     <img src="./google.png" alt="Amazon Poster"/>
@@ -54,6 +53,11 @@
     <code>npm start</code></br>
     <code>yarn start</code>
 
+<h3>To run test:</h3>
+<hr/>
+    <code>npm test</code></br>
+    <code>npx jest src/components/tests/buscar.spec.js</code>
+
 <h3>Open your browser and visit <a>http://localhost:3000</a> to view the application.</h3>
 
 <h2>Usage</h2>
@@ -86,4 +90,26 @@
 <ul>
     <li>This project was inspired by the Google search interface.</li>
     <li>Thanks to the Faker.js library for providing fake animal data.</li>
+</ul>
+
+<hr/>
+<h2>Project Objectives</h2>
+<ul>
+    <li>Build this application as a production grade code. ✔</li>
+    <li>Focus on replicating the given screenshots/design ✔</li>
+    <li>Provide at least one test validating some use cases ✔</li>
+    <li>What would you have done differently if you had more time?
+        <ul>
+            <li>Rigorous Testing Implementation: I would have carried out a more comprehensive battery of tests to check for possible errors and ensure project stability. Additional testing is essential because it can uncover issues that may not be apparent initially, thereby enhancing the software's quality.</li>
+            <li>Image Anchoring: Adding an anchor to images, positioning them on the right side of the selected object/item, would have significantly improved the user experience. This would make the interface more intuitive and facilitate the comprehension of the content. The reason for this is that it would make it easier for users to associate images with specific items, leading to a more seamless interaction.</li>
+            <li>Responsive Layout for Smartphones: I acknowledge the importance of delivering a consistent user experience across all devices, including smartphones. Therefore, if I had more time, I would work on creating a layout that is better suited for mobile devices, drawing inspiration from successful approaches such as Google's responsive design in their smartphone applications. This would ensure that users have a smooth and enjoyable experience, regardless of the device they are using. The rationale behind this is that catering to mobile users is essential in today's digital landscape, and a responsive layout would lead to higher user satisfaction and engagement.</li>
+        </ul>
+    </li>
+    <li>Why?
+        <ul>
+            <li>
+                These additional actions would be beneficial because they would not only enhance the project's quality but also increase overall user satisfaction and usability. Having more time to refine these aspects would have a positive impact on the project's overall success."
+            </li>
+        </ul>
+    </li>
 </ul>
