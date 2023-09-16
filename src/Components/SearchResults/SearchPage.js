@@ -5,14 +5,9 @@ import SearchBar from '../Ui/SearchBar';
 
 import Avatar from "../Ui/Avatar/Avatar";
 import { GiAbstract050 } from 'react-icons/gi';
-// import { Avatar } from '@material-ui/core';
-// import AppsIcon from '@material-ui/icons/Apps';
-// import SearchIcon from '@material-ui/icons/Search';
-// import WallpaperIcon from '@material-ui/icons/Wallpaper';
-// import LocalOfferIcon from '@material-ui/icons/LocalOffer';
-// import DescriptionIcon from '@material-ui/icons/Description';
 import { Link } from 'react-router-dom';
 import { faker } from '@faker-js/faker';
+
 function SearchPage() {
   const user = {
     avatar: faker.image.avatar(),
