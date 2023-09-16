@@ -1,3 +1,4 @@
+
 <h1>Google Clone - Animal Search</h1>
 <center>
     <img src="./google.png" alt="Amazon Poster"/>
