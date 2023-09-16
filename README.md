@@ -25,6 +25,8 @@
 </ul>
 
 <h2>How to Run the Project</h2>
+    <code>npm start</code></br>
+    <code>yarn start</code>
 <h3>
     Clone the repository to your local machine:
 </h3>
