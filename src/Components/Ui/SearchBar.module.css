@@ -37,7 +37,7 @@ div {
   -webkit-appearance: none;
   height: 1em;
   width: 1em;
-  background: url(https://image.flaticon.com/icons/png/512/1828/1828665.png) no-repeat 50% 50%;
+  /* background: url(https://image.flaticon.com/icons/png/512/1828/1828665.png) no-repeat 50% 50%; */
   background-size: contain;
   font-size: 1rem;
   color: blue;
