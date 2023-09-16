@@ -45,18 +45,15 @@
 
 <h3>Install the required dependencies:</h3>
 <hr/>
-    <code>npm install or npm i</code>
+    <code>npm install or npm i</code></br>
     <code>yarn or yarn i</code>
-
 
 <h3>Start the development server:</h3>
 <hr/>
-    <code>npm start</code>
-    <code>yarn start/<code>
+    <code>npm start</code></br>
+    <code>yarn start</code>
 
-
-<h4>Open your browser and visit <a>http://localhost:3000</a> to view the application.</h4>
-<hr/>
+<h3>Open your browser and visit <a>http://localhost:3000</a> to view the application.</h3>
 
 <h2>Usage</h2>
 <ul>
