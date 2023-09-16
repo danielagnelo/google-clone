@@ -40,23 +40,20 @@
 
 <h3>Navigate to the project directory:</h3>
 <hr/>
-<ul>
-    <li><code>cd google-clone</code></li>
-</ul>
+    <code>cd google-clone</code>
+
 
 <h3>Install the required dependencies:</h3>
 <hr/>
-<ul>
-    <li><code>npm install or npm i</code></li>
-    <li><code>yarn or yarn i</code></li>
-</ul>
+    <code>npm install or npm i</code>
+    <code>yarn or yarn i</code>
+
 
 <h3>Start the development server:</h3>
 <hr/>
-<ul>
-    <li><code>npm start</code></li>
-    <li><code>yarn start/<code></li>
-</ul>
+    <code>npm start</code>
+    <code>yarn start/<code>
+
 
 <h4>Open your browser and visit <a>http://localhost:3000</a> to view the application.</h4>
 <hr/>
