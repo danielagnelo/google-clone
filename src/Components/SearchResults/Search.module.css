@@ -2,6 +2,7 @@
   width: 100%;
   padding: 20px 0 20px 20px;
   justify-content: space-between;
+
 }
 .animal__text{
   text-align: left;
@@ -24,6 +25,7 @@
 }
 
 .header__left {
+  box-sizing: border-box;
   justify-content: space-between;
   width: 50vw;
 }
@@ -163,12 +165,7 @@ h6 {
   }
 
   .Header__right {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    justify-content: space-between;
-    align-items: center;
-    width: 20vw;
+   display: none;
   }
 
   .navigation {
@@ -248,6 +245,12 @@ h6 {
 /* iPads Styles in portrait mode */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+  .header__left {
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 55vw;
+  }
+
   .gridContainer>div:nth-child(2).popup {
     display: block;
     width: 550px;
@@ -263,6 +266,12 @@ h6 {
     min-height: 300px;
     z-index: 1000;
   }
+  .Header__right {
+    justify-content: space-between;
+    width: 10vw;
+    margin: 0;
+  }
+
   .darkOverlay {
     position: fixed;
     top: 0;
@@ -280,6 +289,10 @@ h6 {
 
 /* iPhones Styles*/
 @media screen and (max-width: 545px) {
+
+  .Header__right {
+    display: none;
+  }
 
   .gridContainer>div:nth-child(2).popup {
     display: block;

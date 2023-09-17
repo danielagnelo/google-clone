@@ -96,18 +96,19 @@ export default function SearchResults() {
                 <div
                   className={Classes.Results__box}
                   key={animal.key}
-                  onClick={() => handleDivClick(index)}
                 >
                   <span className={Classes.gridContainer}>
                     <div className={Classes.Result__link}>
                       <h6>{animal.url}</h6>
-                      <a href={animal.url}>{animal.name}</a>
+                      <a href="#" onClick={(e) => { e.preventDefault(); handleDivClick(index); }}>
+                        {animal.name}
+                      </a>
                       <div className={Classes.animal__text}>
                         <p className={Classes.animal__para}>{animal.text}</p>
                       </div>
                     </div>
                     {clicked[index] && (
-                      <div className={Classes.popup} onClick={() => setPopupOpen(false)}>
+                      <div className={Classes.popup} onClick={() => handleDivClick(index)}>
                         {imageLoaded[index] ? (
                           <>
                             <img
@@ -117,7 +118,7 @@ export default function SearchResults() {
                             />
                             <div>
                               <h6>{animal.url}</h6>
-                              <a href={animal.url}>{animal.name}</a>
+                              <a href={'#'} >{animal.name}</a>
                               <p className={Classes.animal__para}>{animal.text}</p>
                             </div>
                           </>

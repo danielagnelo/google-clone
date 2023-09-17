@@ -18,7 +18,7 @@ function SearchPage() {
       <div className={Classes.header}>
         <div className={Classes.header__box + ' flex'}>
           <div className={Classes.header__left + ' flex'}>
-            <Link to='/'>
+            <Link to='/' >
               <img src={logo} alt='logo' />
             </Link>
             <SearchBar />
